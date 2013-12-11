@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background"
+    tools:context=".ListaActivity" >
+	
+    <ListView
+        android:id="@+id/list_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_btn_call_list_id"
+        android:background="@drawable/shape_background"
+        android:cacheColorHint="#00000000"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_btn_call_list_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_action_call" />
+
+        <Button
+            android:id="@+id/btn_phone_list_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/transparent" />
+    </RelativeLayout>
+
+</RelativeLayout>

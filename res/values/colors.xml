@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="corpar">#4F4F4F</color>
+    <color name="corimpar">#1C1C1C</color>
+    <color name="itemselected">#EDEDED</color>
+    <color name="login_hover">#E5F5FA</color>
+    
+</resources>
