@@ -1,10 +1,18 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
    android:layout_width="fill_parent" 
-   android:layout_height="fill_parent" 
-   android:orientation="vertical" >
+   android:layout_height="fill_parent" >
+   
+    <fragment 
+        android:id="@+id/fragment_action_bar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        class="br.com.lojapp.pizzadelivery.fragments.FragmentActionBar"/>
     
    <TabHost
        android:id="@android:id/tabhost"
+       android:layout_below="@+id/fragment_action_bar_id"
+       android:layout_above="@+id/fragment_footer_id"
        android:layout_width="fill_parent"
        android:layout_height="fill_parent" >
        
@@ -31,5 +39,13 @@
                android:layout_height="0dp"
                android:layout_weight="1" /> 
        </LinearLayout> 
-   </TabHost> 
-</LinearLayout>
+   </TabHost>
+   
+   <fragment 
+        android:id="@+id/fragment_footer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        class="br.com.lojapp.pizzadelivery.fragments.FragmentFooter"/>
+   
+</RelativeLayout>

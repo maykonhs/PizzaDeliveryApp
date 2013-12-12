@@ -4,11 +4,11 @@
         android:id="@+id/item_nos_encontre_list_id"
         android:orderInCategory="1"
         android:showAsAction="never"
-        android:title="@string/nos_encontre"/>
+        android:title="@string/find_us"/>
     <item
         android:id="@+id/item_sobre_o_app_list_id"
         android:orderInCategory="2"
         android:showAsAction="never"
-        android:title="@string/sobre_o_aplicativo"/>
+        android:title="@string/about"/>
 
 </menu>
