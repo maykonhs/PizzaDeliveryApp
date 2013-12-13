@@ -45,7 +45,8 @@ public final class R {
         public static final int list_bgcolor=0x7f02000f;
         public static final int logo_pizza=0x7f020010;
         public static final int shape_background=0x7f020011;
-        public static final int transparent=0x7f020012;
+        public static final int shape_button_checkout=0x7f020012;
+        public static final int transparent=0x7f020013;
     }
     public static final class id {
         public static final int action_settings=0x7f09000c;
