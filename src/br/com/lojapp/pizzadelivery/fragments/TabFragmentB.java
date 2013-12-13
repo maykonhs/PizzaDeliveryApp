@@ -22,7 +22,7 @@ public class TabFragmentB extends ListFragment {
 	String[] arraySabor = {"A Moda","Banana","Beijinho","Brigadeiro","Chocolate com Amendoin",
 			"Chocolate com Sorvete","Floresta Negra","Prestígio","Romeu e Julieta","Sensação","Doce de Leite","Nutella"};
 	
-	String[] arrayPreco = {"R$ 23,00","R$ 48,30","R$ 22,20","R$ 19,00","R$ 28,00","R$ 20,00","R$ 20,00","R$ 22,00","R$ 24,00","R$ 18,00","R$ 22,00","R$ 21,00"};
+	String[] arrayPreco = {"23,00","48,30","22,20","19,00","28,00","20,00","20,00","22,00","24,00","18,00","22,00","21,00"};
 	
 	String[] arrayIngrediente = {"Ingredientes escolhidos a moda do cliente",
 			"Creme de Leite, bananas, açucar de confeiteiro e canela",

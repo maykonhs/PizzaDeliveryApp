@@ -4,6 +4,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/shape_background"
     tools:context=".SplashActivity" >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo_pizza"
+        android:layout_centerInParent="true"
+        android:alpha="0.5"/>
 
     <TextView
         android:id="@+id/tv_app_name"

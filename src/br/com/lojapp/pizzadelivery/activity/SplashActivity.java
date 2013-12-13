@@ -1,17 +1,14 @@
 package br.com.lojapp.pizzadelivery.activity;
 
-import com.lojapp.pizzadelivery.R;
-import com.lojapp.pizzadelivery.R.layout;
-import com.lojapp.pizzadelivery.R.menu;
-
-import android.os.Bundle;
-import android.os.Handler;
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.widget.TextView;
+
+import com.lojapp.pizzadelivery.R;
 
 public class SplashActivity extends FragmentActivity implements Runnable {
 
