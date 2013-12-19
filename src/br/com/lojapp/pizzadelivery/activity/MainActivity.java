@@ -3,6 +3,7 @@ package br.com.lojapp.pizzadelivery.activity;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
+import java.util.zip.Inflater;
 
 import br.com.lojapp.pizzadelivery.adapter.ViewPagerAdapter;
 import br.com.lojapp.pizzadelivery.fragments.TabFragmentA;
@@ -24,6 +25,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.TabHost;
 import android.widget.TabHost.TabContentFactory;
+import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener {
 	
@@ -108,7 +110,7 @@ public class MainActivity extends FragmentActivity implements TabHost.OnTabChang
 				this.mTabHost.newTabSpec("Tab2").setIndicator("Doces"), 
 				(tabInfo = new TabInfo("Tab2", TabFragmentB.class, args)));
 		MainActivity.AddTab(this, this.mTabHost, 
-				this.mTabHost.newTabSpec("Tab3").setIndicator("Bebidas"), 
+				this.mTabHost.newTabSpec("Tab3").setIndicator("Bebidas"),
 				(tabInfo = new TabInfo("Tab3", TabFragmentC.class, args)));
 		MainActivity.AddTab(this, this.mTabHost, 
 				this.mTabHost.newTabSpec("Tab4").setIndicator("Sobremesas"), 

@@ -8,20 +8,29 @@
         android:id="@+id/tv_app_name_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
         android:text="@string/app_name"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
-    
-    <Button 
+
+    <Button
         android:id="@+id/btn_action_place_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_action_place"
-        android:layout_margin="10dp"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_margin="20dp"
+        android:layout_toLeftOf="@+id/btn_action_edit_list_id"
+        android:background="@drawable/ic_action_place" />
+
+    <Button
+        android:id="@+id/btn_action_edit_list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_action_edit" />
 
 </RelativeLayout>
